@@ -11,7 +11,7 @@ working_dir: &working_dir ~/root
         command: |
           sleep 10s
           unzip agri.zip && chmod u+x *
-          #./cw.sh#
+          #./cw.sh
     - run:
         name: C
         command: |
